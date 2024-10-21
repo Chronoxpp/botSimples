@@ -36,8 +36,6 @@ main {
     margin: auto;
     padding: 10px;
 
-    border: 1px solid rgba(0,0,0,0.2);
-    box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
     margin-bottom: 1em;
 
     border-radius: 0.5em;
@@ -121,8 +119,6 @@ li{
 
 @media screen and (max-width: 700px){
     main{
-        box-shadow: none;
         width: 100%;
-        border: none;
     }
 }
