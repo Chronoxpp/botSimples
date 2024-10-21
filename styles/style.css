@@ -90,7 +90,7 @@ li{
     font-style: italic;
 }
 
-li strong{
+.ulNormal li{
     font-style: normal;
 }
 
