@@ -14,9 +14,12 @@ body *{
 header{
     width: 100%;
     margin-bottom: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.4);
     background-color: rgb(255,255,255);
     padding: 10px;
+
+    border-bottom: 3px solid #21a02b;
+
+    text-align: center;
 }
 
 header h1{
@@ -25,6 +28,7 @@ header h1{
 
 header p{
     margin-bottom: 0px;
+    text-align: center;
 }
 
 main {
@@ -61,6 +65,9 @@ h1{
 p{
     font-size: 1.1em;
     margin-bottom: 1em;
+    line-height: 1.4em;
+
+    text-align: justify;
 }
 
 ul{
@@ -105,6 +112,10 @@ li strong{
 {
     main{
         width: 95%;
+    }
+
+    main h1{
+        text-align: center;
     }
 }
 
